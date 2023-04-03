@@ -37,9 +37,3 @@ button {
 button:hover {
     background-color: #cc2e97;
 }
-
-.success-message {
-    background-color: #27ae60;
-    padding: 16px;
-    color: #fff;
-}
