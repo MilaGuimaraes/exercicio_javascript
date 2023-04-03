@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(){
     var campoB = document.getElementById('campo-b').value;
 
     document.getElementById("btn-verificar").addEventListener("click", function(){
-        if(campoB.value > campoA.value) {
+        if(campoB > campoA) {
             alert("Válido");
         } else {
             alert("Inválido");
